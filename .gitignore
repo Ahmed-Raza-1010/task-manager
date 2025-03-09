@@ -1,0 +1,41 @@
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor# Ignore Node.js dependencies
+node_modules/
+npm-debug.log
+
+# Ignore Laravel dependencies
+vendor/
+.env
+.env.example
+storage/
+bootstrap/cache/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore compiled files
+public/storage
+public/hot
+
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/auth.json
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
